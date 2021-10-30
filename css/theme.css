@@ -394,7 +394,7 @@ body>.navbar .brand:hover {
 .jumbotron {
 	position: relative;
 	padding: 45px 0px 35px 0px;
-	color: rgb(196, 81, 81);
+	color: rgb(255, 255, 255);
 	text-align: center;
 	text-shadow: 0 1px 3px rgba(0, 0, 0, .4), 0 0 30px rgba(0, 0, 0, .075);
 	background: #30819c;
@@ -410,12 +410,11 @@ body>.navbar .brand:hover {
 }
 
 .jumbotron-logo {
-	position: relative;
-    width: 100px;
-    height: 100px;
+	position: absolute;
+    width: 48px;
+    height: 48;
 	left: 100px;
-	top: 0px;
-    border: 1px solid red;
+	top: 100px;
 }
 
 .jumbotron:after {
