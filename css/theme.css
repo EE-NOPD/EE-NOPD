@@ -397,13 +397,13 @@ body>.navbar .brand:hover {
 	color: rgb(255, 255, 255);
 	text-align: center;
 	text-shadow: 0 1px 3px rgba(0, 0, 0, .4), 0 0 30px rgba(0, 0, 0, .075);
-	background: #30819c;
-	background: -moz-linear-gradient(45deg, #316c80 0%, #30819c 100%);
-	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #316c80), color-stop(100%, #30819c));
-	background: -webkit-linear-gradient(45deg, #316c80 0%, #30819c 100%);
-	background: -o-linear-gradient(45deg, #316c80 0%, #30819c 100%);
-	background: -ms-linear-gradient(45deg, #316c80 0%, #30819c 100%);
-	background: linear-gradient(45deg, #316c80 0%, #30819c 100%) repeat;
+	background: #8a3778;
+	background: -moz-linear-gradient(45deg, #dc9cdf 0%, #8a3778 100%);
+	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #8a3778), color-stop(100%, #8a3778));
+	background: -webkit-linear-gradient(45deg, #dc9cdf 0%, #8a3778 100%);
+	background: -o-linear-gradient(45deg, #dc9cdf 0%, #8a3778 100%);
+	background: -ms-linear-gradient(45deg, #dc9cdf 0%, #8a3778 100%);
+	background: linear-gradient(45deg, #dc9cdf 0%, #8a3778 100%) repeat;
 	-webkit-box-shadow: inset 0 3px 7px rgba(0, 0, 0, .2), inset 0 -3px 7px rgba(0, 0, 0, .2);
 	-moz-box-shadow: inset 0 3px 7px rgba(0, 0, 0, .2), inset 0 -3px 7px rgba(0, 0, 0, .2);
 	box-shadow: inset 0 3px 7px rgba(0, 0, 0, .2), inset 0 -3px 7px rgba(0, 0, 0, .2);
@@ -411,10 +411,10 @@ body>.navbar .brand:hover {
 
 .jumbotron-logo {
 	position: absolute;
-    width: 48px;
-    height: 48;
+    width: 96px;
+    height: 96;
 	left: 100px;
-	top: 100px;
+	top: 32px;
 }
 
 .jumbotron:after {
@@ -430,7 +430,7 @@ body>.navbar .brand:hover {
 
 .lead {
 	margin-bottom: 0px;
-	font-size: 21px;
+	font-size: 25px;
 	font-weight: 200;
 	line-height: 15px;
 }
@@ -526,8 +526,8 @@ ul.sponsors {
 	padding-bottom: 25px;
 	border-top-width: 8px;
 	border-top-style: solid;
-	border-top-color: #2F2F2F;
-	background-color: #196d94;
+	border-top-color: #7e3a6d;
+	background-color: #80258b;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
@@ -536,13 +536,13 @@ ul.sponsors {
 }
 
 #footer h3 {
-	font-size: 19px;
+	font-size: 22px;
 	text-transform: uppercase;
 	font-family: BebasNeueRegular;
-	color: #8DBECE;
+	color: #f9fbfc;
 	border-bottom-width: 1px;
 	border-bottom-style: solid;
-	border-bottom-color: #30393C;
+	border-bottom-color: #f8f8f8;
 	line-height: 35px;
 	margin-bottom: 20px;
 	margin-top: 25px;
@@ -555,6 +555,6 @@ ul.sponsors {
 
 #footer p,
 #footer address {
-	color: #8F8F8F;
-	font-size: 11px;
+	color: #fcfcfc;
+	font-size: 15px;
 }
