@@ -414,7 +414,7 @@ body>.navbar .brand:hover {
     width: 100px;
     height: 100px;
 	left: 100px;
-	top: 100px;
+	top: 0px;
     border: 1px solid red;
 }
 
