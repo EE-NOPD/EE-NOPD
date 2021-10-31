@@ -453,7 +453,8 @@ img.float-right {
 
 img.publications-thumb {
 	width: 120px;
-	height: 100px;
+	height: 130px;
+	object-fit:cover;
 }
 
 .caption {
