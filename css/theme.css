@@ -491,8 +491,16 @@ img.publications-thumb {
 	height: 150px;
 }
 
-img.carousel-image {
-	width: 100%;
+.grid-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 40px;
+}
+
+.grid-child {
+	/* Center vertically */
+	display: flex;
+  	align-items: center;
 }
 
 li.publication {
