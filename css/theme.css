@@ -295,7 +295,7 @@ body>.navbar .brand:hover {
 
 #media .post_row .post a.plus_wrapper span {
 	color: #1189D9;
-	font-size: 30px;
+	font-size: 24px;
 	font-weight: bold;
 }
 
@@ -452,8 +452,8 @@ img.float-right {
 }
 
 img.publications-thumb {
-	width: 142px;
-	height: 188px;
+	width: 120px;
+	height: 100px;
 }
 
 .caption {
