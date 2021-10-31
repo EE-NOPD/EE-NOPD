@@ -222,6 +222,7 @@ body>.navbar .brand:hover {
 #media .post_row .post .img img {
 	height: 275px;
 	width: 410px;
+	object-fit:cover;
 }
 
 #media .post_row .post .text {
