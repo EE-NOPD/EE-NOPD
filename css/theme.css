@@ -395,15 +395,15 @@ body>.navbar .brand:hover {
 	position: relative;
 	padding: 45px 0px 35px 0px;
 	color: rgb(255, 255, 255);
-	text-align: center;
+	text-align: right;
 	text-shadow: 0 1px 3px rgba(0, 0, 0, .4), 0 0 30px rgba(0, 0, 0, .075);
 	background: #8a3778;
-	background: -moz-linear-gradient(45deg, #dc9cdf 0%, #8a3778 100%);
+	background: -moz-linear-gradient(45deg, #d973df 0%, #8a3778 100%);
 	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #8a3778), color-stop(100%, #8a3778));
-	background: -webkit-linear-gradient(45deg, #dc9cdf 0%, #8a3778 100%);
-	background: -o-linear-gradient(45deg, #dc9cdf 0%, #8a3778 100%);
-	background: -ms-linear-gradient(45deg, #dc9cdf 0%, #8a3778 100%);
-	background: linear-gradient(45deg, #dc9cdf 0%, #8a3778 100%) repeat;
+	background: -webkit-linear-gradient(45deg, #d973df 0%, #8a3778 100%);
+	background: -o-linear-gradient(45deg, #d973df 0%, #8a3778 100%);
+	background: -ms-linear-gradient(45deg, #d973df 0%, #8a3778 100%);
+	background: linear-gradient(45deg, #d973df 0%, #8a3778 100%) repeat;
 	-webkit-box-shadow: inset 0 3px 7px rgba(0, 0, 0, .2), inset 0 -3px 7px rgba(0, 0, 0, .2);
 	-moz-box-shadow: inset 0 3px 7px rgba(0, 0, 0, .2), inset 0 -3px 7px rgba(0, 0, 0, .2);
 	box-shadow: inset 0 3px 7px rgba(0, 0, 0, .2), inset 0 -3px 7px rgba(0, 0, 0, .2);
@@ -411,10 +411,10 @@ body>.navbar .brand:hover {
 
 .jumbotron-logo {
 	position: absolute;
-    width: 96px;
+    width: 400px;
     height: 96;
-	left: 100px;
-	top: 32px;
+	left: 10px;
+	top: 42px;
 }
 
 .jumbotron:after {
